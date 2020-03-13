@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    " watch-sass": "node-sass -w   --output-style  -o compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abboudisara/JS-the-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abboudisara/JS-the-basics/issues"
+  },
+  "homepage": "https://github.com/Abboudisara/JS-the-basics#readme"
+}
