@@ -43,4 +43,8 @@ function fakeAjax(){
 
 
 
+/**************************j essayé de faire le maximum mais cette énonce ce prend de temps ******************************* */
+
+
+
 
