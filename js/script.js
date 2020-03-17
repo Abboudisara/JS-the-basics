@@ -1,21 +1,46 @@
-function addFavoriteBook(bookName) {
-    var favoritebook = ['livre1', 'livre2', ' livre3', ]
-    var book = favoritebook.includes('Great');
-    console.log(book)
-    if (book !== true) {
-        favoritebook.push('Great')
+function printFavoriteBooks(livre1,livre2){
+    this.livre1="livre1";
+    this.livre2="livre2";
+}console.log("secret","maliable");
 
-    } else {
-        console.log('is already exist')
-    }
+function addFavoriteBook(){
+    var livre3= ['terre'];
+    addFavoriteBook.push("terre")
+}console.log("terre");
 
-    function printFavoriteBooks() {
-        var num = favoritebook.length
-        console.log('livers' + '' + 'favoris' + num);
-        for (let element of favoritebook) {
-            console.log(element)
-        }
+class Bookshelf{
+    livre1;
+    livre2;
+    livre3;
+
+    constructor(livre1,livre2){
+        this.livre1=livre1;
+        this.livre2=livre2;
+        this.livre3=livre3;
+
+    }ajout(){
+        return this.livre1 + ":" + this.livre2 + ":"+this.livre3;
     }
-    printFavoriteBooks()
-}
-addFavoriteBook()
+ 
+} console.log("secret","maliable","terre");
+
+function loadBooks(livre1,livre2,livre3){
+    
+    this.livre1=livre1;
+    this.livre2=livre2;
+    this.livre3=livre3;
+    fakeAjax.call("https://www.googleapis.com/books/v1/volumes?q=search+terms");
+
+    this.ajout=function(){
+      return this.livre1 + ":"+this.livre2+":"+this.livre3;
+    }
+}console.log("mosque","tortue","camion");
+
+function fakeAjax(){
+    var api =["https://www.googleapis.com/books/v1/volumes?q=search+terms"]
+    
+}console.log("https://www.googleapis.com/books/v1/volumes?q=search+terms");
+
+
+
+
