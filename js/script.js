@@ -1,50 +1,21 @@
-function printFavoriteBooks(livre1,livre2){
-    this.livre1="livre1";
-    this.livre2="livre2";
-}console.log("secret","maliable");
+/**********énonce 3****************** */
+function nextInLine (arr,item) {
+    var arr=[1,2,3,4,5];
 
-function addFavoriteBook(){
-    var livre3= ['terre'];
-    addFavoriteBook.push("terre")
-}console.log("terre");
+    console.log(arr);
 
-class Bookshelf{
-    livre1;
-    livre2;
-    livre3;
+    arr.push(6)
 
-    constructor(livre1,livre2){
-        this.livre1=livre1;
-        this.livre2=livre2;
-        this.livre3=livre3;
+    console.log(arr);
 
-    }ajout(){
-        return this.livre1 + ":" + this.livre2 + ":"+this.livre3;
-    }
+    var sup= arr.shift("");
+
+    console.log(arr);
+
+    console.log(sup);
+
+}nextInLine();
  
-} console.log("secret","maliable","terre");
-
-function loadBooks(livre1,livre2,livre3){
-    
-    this.livre1=livre1;
-    this.livre2=livre2;
-    this.livre3=livre3;
-    fakeAjax.call("https://www.googleapis.com/books/v1/volumes?q=search+terms");
-
-    this.ajout=function(){
-      return this.livre1 + ":"+this.livre2+":"+this.livre3;
-    }
-}console.log("mosque","tortue","camion");
-
-function fakeAjax(){
-    var api =["https://www.googleapis.com/books/v1/volumes?q=search+terms"]
-    
-}console.log("https://www.googleapis.com/books/v1/volumes?q=search+terms");
-
-
-
-/**************************j essayé de faire le maximum mais cette énonce ce prend de temps ******************************* */
-
 
 
 
